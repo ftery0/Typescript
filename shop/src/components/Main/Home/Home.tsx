@@ -8,18 +8,34 @@ return(
         <Header/>
         <S.Event>
             <S.Advertisement>
+                <S.Mainul>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                <li>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                </li>
+                </S.Mainul>
             </S.Advertisement>
             <S.BestSellerText><p>베스트셀러</p> </S.BestSellerText>
             <S.BestSeller>
                 <S.BestSellerDetail>
                 <S.BestSellerProduct>
-                <S.BestSellerImg src={product}></S.BestSellerImg>
+                <S.BestSellerImg src={product}>
+
+                </S.BestSellerImg>
                 </S.BestSellerProduct>
                 <S.BestSellerProduct>
                 <S.BestSellerImg src={product}></S.BestSellerImg>

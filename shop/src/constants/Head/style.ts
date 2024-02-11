@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Head = styled.div`
+z-index: 5;
   position: fixed;
   display: flex;
   justify-content: space-between;

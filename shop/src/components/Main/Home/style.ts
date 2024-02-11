@@ -8,18 +8,28 @@ export const Main = styled.div`
 `;
 export const Event = styled.div`
   display: flex;
+  align-items: center;
   flex-direction: column;
   margin-top: 80px;
   width: 100vw;
   height: calc(100% - 80px);
 `;
+export const Mainul = styled.ul`
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    list-style: none;
+    li{
+     display: inline-flex;
+        width: calc(33.33% - 8px);
+        margin-top: 12px;
+        position: relative;
+    }
+`
+
 export const Advertisement = styled.div`
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  width: 100%;
+display: flex;
+  width: 1400px;
   height: 49%;
   overflow: hidden;
 `;
