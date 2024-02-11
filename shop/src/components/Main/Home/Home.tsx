@@ -12,6 +12,7 @@ return(
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
                 <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
+                <S.AdvertisementImg src={testImg}></S.AdvertisementImg>
             </S.Advertisement>
         </S.Event>
     </S.Main>

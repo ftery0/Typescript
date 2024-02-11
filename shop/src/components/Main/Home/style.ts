@@ -15,10 +15,10 @@ export const Advertisement = styled.div`
 margin-top: 50px;
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 20px;
 flex-wrap: wrap;
 width: 100%;
-height: 60%;
+height: 50%;
 background-color: aqua;
 `
 export const AdvertisementImg =styled.img`
