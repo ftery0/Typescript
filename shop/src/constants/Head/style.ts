@@ -9,6 +9,7 @@ z-index: 5;
   width: 100vw;
   height: 80px;
   background: rgba(255, 255, 255, 0.7);
+  
 `;
 export const Logo = styled.div`
   text-decoration: none;
