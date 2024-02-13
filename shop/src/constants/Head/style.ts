@@ -35,7 +35,4 @@ export const HeaderLi = styled.nav`
   margin-right: 50px;
   list-style-type: none;
   justify-content: space-between;
-  &:hover {
-    color: #1a9a18 !important;
-  }
 `;

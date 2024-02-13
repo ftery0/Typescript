@@ -86,7 +86,6 @@ export const BestSellerProductDetail = styled.div`
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: aqua;
 `;
 export const BestSellerProductBrand = styled.div`
 display: flex;
@@ -134,7 +133,34 @@ s{
 `;
 export const BestSellerProductreview = styled.div`
 display: flex;
+flex-direction: row;
 width: 100%;
-height: 40px;
-
+height: 30px;
+gap: 30px;
+`
+export const BestSellerHurt = styled.div`
+cursor: pointer;
+display: flex;
+width: 20px;
+height: 20px;
+`
+export const AiFillHeart = styled.img`
+display: flex;
+width: 100%;
+height: 100%;
+`
+export const AiOutlineHeart = styled.img`
+display: flex;
+width: 100%;
+height: 100%;
+`
+export const review =styled.div`
+display: flex;
+align-items: center;
+width: 80px;
+height: 20px;
+border-left: 2px solid gray;
+p{
+    margin-left: 20px;
+}
 `
