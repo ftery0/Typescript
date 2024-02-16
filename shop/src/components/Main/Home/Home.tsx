@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import * as S from "./style";
-import Header from "src/constants/Head/Head";
+import Header from "src/components/Head/Head";
 import testImg from "src/Assets/img/fashonEvent.webp";
 import product from "src/Assets/img/product.png";
 import Banner from "../Banner/Banner";
