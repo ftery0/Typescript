@@ -6,7 +6,6 @@ import Header from "../head/header";
 function Main() {
   return (
     <>
-    
     <Header />
     <div className="main">
     <img className="img" src={backgroun}/>

@@ -7,9 +7,9 @@ const Header = () => {
     <div className="Head">
       <div className="Logo">test</div>
       <div className="HeaderUl">
-        <div className="headerLi" onClick={()=>navigate("/he1")}>이거지</div>
-        <div className="headerLi" onClick={()=>navigate("/he")}>멍청하지</div>
-        <div className="headerLi" onClick={()=>navigate("/he")}>연희는</div>
+        <div className="headerLi" onClick={()=>navigate("/myinfo")}>myinfo</div>
+        <div className="headerLi" onClick={()=>navigate("/myWork")}>myWork</div>
+        <div className="headerLi" onClick={()=>navigate("/he")}>몰라</div>
       </div>
     </div>
   );
