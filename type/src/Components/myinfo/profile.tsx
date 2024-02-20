@@ -5,8 +5,7 @@ const MyProfile =()=>{
         <>
          <Header/>
         <div className="Profile">
-           
-
+           곧 나올 예정
         </div>
         </>
     )
