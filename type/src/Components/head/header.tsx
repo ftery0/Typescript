@@ -10,7 +10,7 @@ const Header = () => {
       <div className="headerLi" onClick={()=>navigate("/")}>Home</div>
         <div className="headerLi" onClick={()=>navigate("myinfo")}>myinfo</div>
         <div className="headerLi" onClick={()=>navigate("/myWork")}>myWork</div>
-        <div className="headerLi" onClick={()=>navigate("/he")}>몰라</div>
+        <div className="headerLi" onClick={()=>navigate("/he")}></div>
       </div>
     </div>
   );
