@@ -1,0 +1,42 @@
+$white: #ffffffd9;
+
+.Head {
+  position: fixed !important;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 80px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+  .Logo {
+    display: flex;
+    text-decoration: none;
+    margin: 0 40px 0 30px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .HeaderUl {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .headerLi {
+      display: flex;
+      cursor: pointer;
+      height: 100%;
+      text-decoration-line: none;
+      font-size: 23px;
+      font-weight: 800;
+      text-decoration: none;
+      display: inline-block;
+      margin-right: 50px;
+      list-style-type: none;
+      justify-content: space-between;
+    }
+  }
+}

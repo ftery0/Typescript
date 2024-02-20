@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Head = styled.div`
+z-index: 5;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -8,6 +9,7 @@ export const Head = styled.div`
   width: 100vw;
   height: 80px;
   background: rgba(255, 255, 255, 0.7);
+  
 `;
 export const Logo = styled.div`
   text-decoration: none;
@@ -33,7 +35,4 @@ export const HeaderLi = styled.nav`
   margin-right: 50px;
   list-style-type: none;
   justify-content: space-between;
-  &:hover {
-    color: #1a9a18 !important;
-  }
 `;
