@@ -21,7 +21,7 @@ const Clock = () => {
   }, []);
 
   const getColor = (hour: number): string => {
-    const colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet", "cyan", "magenta", "pink", "purple", "lime", "teal", "olive", "navy", "maroon", "brown", "black", "silver", "gray", "white", "darkblue", "gold", "coral"];
+    const colors = ["red", "orange", "yellow", "green", "#3BADFF", "indigo", "violet", "cyan", "magenta", "pink", "purple", "lime", "teal", "olive", "navy", "maroon", "brown", "black", "silver", "gray", "white", "darkblue", "gold", "coral"];
     return colors[hour % colors.length];
   };
   
