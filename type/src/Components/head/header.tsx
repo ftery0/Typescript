@@ -5,7 +5,7 @@ const Header = () => {
     const navigate = useNavigate();
   return (
     <div className="Head">
-      <div className="Logo">test</div>
+      <div className="Logo"></div>
       <div className="HeaderUl">
       <div className="headerLi" onClick={()=>navigate("/")}>Home</div>
         <div className="headerLi" onClick={()=>navigate("/myinfo")}>myinfo</div>
