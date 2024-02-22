@@ -31,7 +31,7 @@ const Clock: React.FC<ClockProps> = ({ onMinuteChange }) => {
   }, [minutes, onMinuteChange]);
 
   const getColor = (hour: number): string => {
-    const colors = ["red", "orange", "yellow", "green", "#3BADFF", "indigo", "violet", "cyan", "magenta", "pink", "purple", "lime", "teal", "olive", "navy", "maroon", "brown", "black", "silver", "gray", "white", "darkblue", "gold", "coral"];
+    const colors = ["#FF5F5F", "#FFB35A", "#FFE248", "#47EC62", "#3BADFF", "#6B53FF", "#9868FF", "#26FFFF", "#F584FF", "#FFC0FC", "#800080", "#D4FF7A", "#015969", "#ACB07D", "#484881", "#800000", "#513A3A", "#000", "#C0C0C0", "#757575", "#fff", "##FFBE98", "##FFD700", "#FF7F50"];
     return colors[hour % colors.length];
   };
 
