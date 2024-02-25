@@ -4,6 +4,7 @@ import Clock from "../clock/Clock";
 import background1 from "src/Assets/img/beiheng-guo-IAVVv6z3D6g-unsplash.jpg";
 import background2 from "src/Assets/img/18.jpeg";
 import background3 from "src/Assets/img/14.jpeg";
+import background4 from "src/Assets/img/124.jpeg"
 import Header from "../head/header";
 
 function Main() {
@@ -14,8 +15,11 @@ function Main() {
       setBackgroundImage(background1);
     } else if (minutes % 3 === 1) {
       setBackgroundImage(background2);
-    } else {
+    } else if (minutes % 3 === 2){
       setBackgroundImage(background3);
+    }
+    else if (minutes % 3 === 3){
+        setBackgroundImage(background4);
     }
   };
 
