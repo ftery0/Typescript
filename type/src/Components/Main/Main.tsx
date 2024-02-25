@@ -8,19 +8,12 @@ import background4 from "src/Assets/img/124.jpeg"
 import Header from "../head/header";
 
 function Main() {
+  const backgrounds = [background1, background2, background3, background4];
   const [backgroundImage, setBackgroundImage] = useState(background1);
 
-  const handleMinuteChange = (minutes: number) => {
-    if (minutes % 3 === 0) {
-      setBackgroundImage(background1);
-    } else if (minutes % 3 === 1) {
-      setBackgroundImage(background2);
-    } else if (minutes % 3 === 2){
-      setBackgroundImage(background3);
-    }
-    else if (minutes % 3 === 3){
-        setBackgroundImage(background4);
-    }
+  const handleMinuteChange = () => {
+    const randomIndex = Math.floor(Math.random() * backgrounds.length);
+    setBackgroundImage(backgrounds[randomIndex]);
   };
 
   return (
