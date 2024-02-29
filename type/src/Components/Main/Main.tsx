@@ -32,6 +32,9 @@ function Main() {
           <Clock onMinuteChange={handleMinuteChange} />
         </div>
       </div>
+      <div className="main2">
+        
+      </div>
     </>
   );
 }
