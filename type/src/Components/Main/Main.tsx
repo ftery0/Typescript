@@ -33,6 +33,9 @@ function Main() {
         </div>
       </div>
       <div className="main2">
+
+      </div>
+      <div className="main3">
         
       </div>
     </>
